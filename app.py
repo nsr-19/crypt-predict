@@ -164,7 +164,7 @@ model.compile(loss = "mean_squared_error", optimizer = "adam")
 
 #model = load_model('keras_model.h5')
 
-history = model.fit(X_train, Y_train, validation_data = (X_test, Y_test), epochs = 50, batch_size = 25, verbose = 1)
+history = model.fit(X_train, Y_train, validation_data = (X_test, Y_test), epochs = 350, batch_size = 25, verbose = 1)
 
 # Plotting Loss vs Validation Loss
 
